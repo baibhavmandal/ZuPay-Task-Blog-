@@ -1,0 +1,41 @@
+:root {
+  /* color variables */
+  --seasalt: #f8f9faff; /* body */
+  --antiflash-white: #e9ecefff; /* header, footer, some BOX, primary */
+  --platinum: #dee2e6ff; /* secondary */
+  --french-gray: #ced4daff; /* border */
+  --french-gray-2: #adb5bdff; /* text area background */
+  --slate-gray: #6c757dff; /* form placeholder color */
+  --outer-space: #495057ff; /* date, reading time, author name */
+  --onyx: #343a40ff; /* text */
+  --eerie-black: #212529ff; /* headings, form label */
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--seasalt);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--antiflash-white);
+}
+
+#root {
+  height: auto;
+  min-height: 100vh;
+}
