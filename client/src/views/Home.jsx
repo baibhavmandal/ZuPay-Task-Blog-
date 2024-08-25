@@ -19,7 +19,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const fetchData = () => {
-    const apiUrl = "http://localhost:5000/api/v1/blog/post";
+    const apiUrl = "https://zupay-task-blog.onrender.com/api/v1/blog/post";
 
     fetch(apiUrl)
       .then((response) => {

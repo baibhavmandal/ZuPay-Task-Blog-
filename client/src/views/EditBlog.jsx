@@ -49,7 +49,7 @@ const EditBlog = () => {
       return;
     }
     setLoading(true);
-    fetch(`http://localhost:5000/api/v1/blog/post/${id}`, {
+    fetch(`https://zupay-task-blog.onrender.com/api/v1/blog/post/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

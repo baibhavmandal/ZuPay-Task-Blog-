@@ -28,7 +28,7 @@ const CreateBlog = () => {
       return;
     }
     setLoading(true);
-    fetch("http://localhost:5000/api/v1/blog/post", {
+    fetch("https://zupay-task-blog.onrender.com/api/v1/blog/post", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

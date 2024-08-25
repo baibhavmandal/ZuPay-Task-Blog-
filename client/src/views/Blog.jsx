@@ -23,7 +23,7 @@ const Blog = () => {
 
   const handleDeleteClick = () => {
     setLoading(true);
-    fetch(`http://localhost:5000/api/v1/blog/post/${blog.id}`, {
+    fetch(`https://zupay-task-blog.onrender.com/api/v1/blog/post/${blog.id}`, {
       method: "DELETE",
     })
       .then((response) => {
@@ -49,7 +49,7 @@ const Blog = () => {
       return;
     }
 
-    const apiUrl = `http://localhost:5000/api/v1/blog/post/${blog.id}`;
+    const apiUrl = `https://zupay-task-blog.onrender.com/api/v1/blog/post/${blog.id}`;
 
     fetch(apiUrl)
       .then((response) => {
