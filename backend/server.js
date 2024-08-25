@@ -14,11 +14,7 @@ connectDB(process.env.MONGO_URI)
   .then(() => console.log("Connected to database"))
   .catch((err) => console.log(err));
 
-app.use(
-  cors({
-    origin: "https://zupay-task-blog-1.onrender.com",
-  })
-);
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/v1/blog", router);
